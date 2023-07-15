@@ -1,0 +1,11 @@
+[CONFIG]
+
+num_workers = 1
+batch_size = 12
+max_seq_len = 256
+n_epochs = 1
+
+train_dataset_path = './dataset/smsa_doc-sentiment-prosa/train_preprocess.tsv'
+valid_dataset_path = './dataset/smsa_doc-sentiment-prosa/valid_preprocess.tsv'
+test_dataset_path = './dataset/smsa_doc-sentiment-prosa/test_preprocess.tsv'
+
